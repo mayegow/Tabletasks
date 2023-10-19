@@ -19,4 +19,5 @@ Prepare you virtual env
     $ python install -r requirements.txt
     $ python manage.py migrate
     $ python manage.py runserver
-    
+
+# ENJOY IT 
