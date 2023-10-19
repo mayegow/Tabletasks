@@ -6,7 +6,17 @@ write your task develop into django framework
 This project was released with django 4
 
 # How to Run
-    $ copy local_settings.template into local_settings.py
-    $ python manage.py -r requirements.txt
+
+---
+Prepare you virtual env 
+
+    $ python -m venv <folder_name>
+    $ cd <folder_name>
+    $ source bin/activate
+    $ git clone <this_repo>
+    $ cd <this_repo>
+    $ cd tareas
+    $ python install -r requirements.txt
     $ python manage.py migrate
     $ python manage.py runserver
+    
